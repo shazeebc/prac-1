@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Oswald&display=swap');
+:root{
+    --primary-color: rgb(236, 14, 14);
+    
+}
+body
+{font-family: 'Aboreto', cursive}
+
+.container{
+    
+    padding-left: 2rem;
+}
+.container-center{
+      max-width: 700px;
+      margin: auto;
+}
+.fluid-container{
+    max-width: 750px;
+    margin: auto;
+}
+.primary-link {
+    color: var(--primary-color);
+
+}
+.primary-link{
+    background-color:crimson;
+    border-radius: 0.5rem;
+    color: aliceblue;
+}
+.secondary-link{
+    background-color: midnightblue;
+    border-radius: 10rem;
+    color: aliceblue;
+}

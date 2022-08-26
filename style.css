@@ -1,121 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Oswald&display=swap');
-:root{
-    --primary-color: rgb(13, 130, 240); 
+
+:root {
+    --primary-color: rgb(13, 130, 240);
 }
 
 
-    
 
-body
-{font-family: 'Aboreto', cursive}
 
-.container{
-    
+body {
+    font-family: 'Aboreto', cursive
+}
+
+.container {
+
     padding-left: 2rem;
 }
-.container-center{
-      max-width: 700px;
-      margin: auto;
+
+.container-center {
+    max-width: 700px;
+    margin: auto;
 }
-.fluid-container{
+
+.fluid-container {
     max-width: 750px;
     margin: auto;
 }
+
 .primary-link {
     color: var(--primary-color);
 
 }
-.primary-link{
+
+.primary-link {
     background-color: rgb(40, 25, 141);
     border-radius: .5rem;
     color: aliceblue;
     padding: 10px;
 }
-.secondary-link{
-       background-color: burlywood;
-    
 
-    border-radius: .5rem;
-    
-    color: rgb(40, 25, 141);;
+.secondary-link {
+    background-color: #1e3a8a;
+    padding: 1rem;
+    border-radius: .3rem;
+    color: wheat;
     padding: 10px;
 }
-hr{
+
+hr {
     margin: 1rem 0rem;
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
-    
+
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding: 2.5rem 1.5rem;
 }
-.nav{
+
+.nav {
     background-color: rgb(40, 25, 141);
     color: aliceblue;
     padding: 2rem;
     border-radius: 1rem 1rem;
 }
-.nav .list-non-bullet-Nav-pills{
-       text-align: right;
+
+.nav .list-non-bullet-Nav-pills {
+    text-align: right;
 }
-.nav .nav-brand{
+
+.nav .nav-brand {
     font-weight: bold;
     color: black;
     font-size: 1.4rem;
 }
-.nav .link{
+
+.nav .link {
     color: white;
 }
-.nav .link{
+
+.nav .link {
     font-weight: bolder;
     font-size: 1.0rem;
-    color:white
+    color: white
 }
-.hero .hero-image{
+
+.hero .hero-image {
     max-width: 900px;
     display: block;
     text-align: center;
     margin: auto;
 }
-.hero .hero-heading{
+
+.hero .hero-heading {
     font-size: 2rem;
     color: #475569;
     font-weight: bold;
+    text-align: center;
 }
-.hero .hero-heading .heading-to{
-    color:#1e40af
+
+.hero .hero-heading .heading-to {
+    color: #1e40af
 }
-.section h3{
- text-align: center;
- background-color: antiquewhite;
- padding: 1.5rem;
+
+.section h3 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 1.5rem;
 }
-.footer .footer1{
+
+.footer .footer1 {
     font-weight: bolder;
     font-size: 1.5rem;
-     text-align: center;
+    text-align: center;
 }
-.footer{
-    background-color: rgb(40, 25, 141);;
+
+.footer {
+    background-color: rgb(40, 25, 141);
+    ;
     padding: 2rem;
     border-radius: 2rem 2rem;
-}   
-.footer1{
+}
+
+.footer1 {
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
 
 }
-.footer .footer2{
+
+.footer .footer2 {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
 }
- .footer .footer3{
+
+.footer .footer3 {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-   
- }
+
+}

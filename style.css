@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Oswald&display=swap');
 :root{
-    --primary-color: rgb(236, 14, 14);
-    
+    --primary-color: rgb(13, 130, 240); 
 }
+
+
+    
+
 body
 {font-family: 'Aboreto', cursive}
 
@@ -23,12 +26,96 @@ body
 
 }
 .primary-link{
-    background-color:crimson;
-    border-radius: 0.5rem;
+    background-color: rgb(40, 25, 141);
+    border-radius: .5rem;
     color: aliceblue;
+    padding: 10px;
 }
 .secondary-link{
-    background-color: midnightblue;
-    border-radius: 10rem;
-    color: aliceblue;
+       background-color: burlywood;
+    
+
+    border-radius: .5rem;
+    
+    color: rgb(40, 25, 141);;
+    padding: 10px;
 }
+hr{
+    margin: 1rem 0rem;
+}
+.list-non-bullet{
+    list-style: none;
+    
+}
+.list-item-inline{
+    display: inline;
+    padding: 2.5rem 1.5rem;
+}
+.nav{
+    background-color: rgb(40, 25, 141);
+    color: aliceblue;
+    padding: 2rem;
+    border-radius: 1rem 1rem;
+}
+.nav .list-non-bullet-Nav-pills{
+       text-align: right;
+}
+.nav .nav-brand{
+    font-weight: bold;
+    color: black;
+    font-size: 1.4rem;
+}
+.nav .link{
+    color: white;
+}
+.nav .link{
+    font-weight: bolder;
+    font-size: 1.0rem;
+    color:white
+}
+.hero .hero-image{
+    max-width: 900px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.hero .hero-heading{
+    font-size: 2rem;
+    color: #475569;
+    font-weight: bold;
+}
+.hero .hero-heading .heading-to{
+    color:#1e40af
+}
+.section h3{
+ text-align: center;
+ background-color: antiquewhite;
+ padding: 1.5rem;
+}
+.footer .footer1{
+    font-weight: bolder;
+    font-size: 1.5rem;
+     text-align: center;
+}
+.footer{
+    background-color: rgb(40, 25, 141);;
+    padding: 2rem;
+    border-radius: 2rem 2rem;
+}   
+.footer1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.footer .footer2{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+ .footer .footer3{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+   
+ }

@@ -36,6 +36,7 @@ body {
     border-radius: .5rem;
     color: aliceblue;
     padding: 10px;
+    margin: 2rem;
 }
 
 .secondary-link {
@@ -44,6 +45,7 @@ body {
     border-radius: .3rem;
     color: wheat;
     padding: 10px;
+    
 }
 
 hr {
@@ -122,6 +124,7 @@ hr {
     ;
     padding: 2rem;
     border-radius: 2rem 2rem;
+    margin-top: 2rem;
 }
 
 .footer1 {
@@ -133,13 +136,22 @@ hr {
 
 .footer .footer2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
+    
+}
+.footer .list-item-inline .link{
+    color: black;
+    font-size: 1.5rem;
+}
+.footer .list-item-inline .list-non-bullet .link1{
+    color: black;
+    font-size: 1rem
 }
 
-.footer .footer3 {
+.footer .list-item-inline{
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-
+    color: black;
 }
